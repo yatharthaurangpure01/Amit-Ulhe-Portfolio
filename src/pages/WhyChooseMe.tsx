@@ -19,12 +19,12 @@ const reasons = [
   {
     icon: UserCheck,
     title: "Personalized Financial Guidance",
-    description: "Every client is unique. I take time to understand your specific situation, goals, and concerns before recommending any solution. No cookie-cutter approaches here.",
+    description: "Every client is unique. We take time to understand your specific situation, goals, and concerns before recommending any solution. No cookie-cutter approaches here.",
   },
   {
     icon: Eye,
     title: "100% Transparency",
-    description: "Complete clarity on charges, terms, and conditions. I believe in building trust through honest communication, even when it means recommending a less expensive option.",
+    description: "Complete clarity on charges, terms, and conditions. We believe in building trust through honest communication, even when it means recommending a less expensive option.",
   },
   {
     icon: Smartphone,
@@ -34,12 +34,12 @@ const reasons = [
   {
     icon: Zap,
     title: "Quick Claim Support",
-    description: "When you need to file a claim, I'm there to guide you through every step. Fast, reliable support when it matters most.",
+    description: "When you need to file a claim, we're there to guide you through every step. Fast, reliable support when it matters most.",
   },
   {
     icon: Handshake,
     title: "Long-term Relationship",
-    description: "I don't disappear after the sale. Regular reviews, policy updates, and ongoing support ensure your financial plan evolves with your life.",
+    description: "We don't disappear after the sale. Regular reviews, policy updates, and ongoing support ensure your financial plan evolves with your life.",
   },
   {
     icon: FileCheck,
@@ -63,13 +63,13 @@ const WhyChooseMe = () => {
         <div className="container-custom px-4">
           <div className="max-w-3xl">
             <div className="inline-block px-4 py-1 bg-primary-foreground/10 rounded-full mb-4">
-              <span className="text-sm text-primary-foreground">Why Choose Me</span>
+              <span className="text-sm text-primary-foreground">Why Choose Us</span>
             </div>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-              Your Success is My Priority
+              Your Success is Our Priority
             </h1>
             <p className="text-lg text-primary-foreground/80">
-              With a client-first philosophy and years of experience, I'm committed to helping you navigate your financial journey with confidence.
+              With a client-first philosophy and years of experience, we're committed to helping you navigate your financial journey with confidence.
             </p>
           </div>
         </div>
@@ -96,10 +96,10 @@ const WhyChooseMe = () => {
         <div className="container-custom">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-              What Sets Me Apart
+              What Sets Us Apart
             </h2>
             <p className="text-muted-foreground text-lg">
-              I bring a unique combination of expertise, ethics, and empathy to every client relationship.
+              We bring a unique combination of expertise, ethics, and empathy to every client relationship.
             </p>
           </div>
 
@@ -172,7 +172,7 @@ const WhyChooseMe = () => {
 
               <div className="bg-primary-foreground/10 rounded-xl p-6">
                 <h4 className="font-display text-xl font-semibold mb-4">
-                  My Promise to You
+                  Our Promise to You
                 </h4>
                 <ul className="space-y-3">
                   {[

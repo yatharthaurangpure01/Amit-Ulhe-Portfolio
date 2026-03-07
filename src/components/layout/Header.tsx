@@ -8,7 +8,7 @@ const navLinks = [
   { name: "About", path: "/about" },
   { name: "Services", path: "/services" },
   { name: "Calculator", path: "/sip-calculator" },
-  { name: "Why Choose Me", path: "/why-choose-me" },
+  { name: "Why Choose Us", path: "/why-choose-me" },
 ];
 
 const Header = () => {
@@ -30,13 +30,12 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-card/95 backdrop-blur-md shadow-medium py-2"
-          : location.pathname === "/success"
-            ? "gradient-hero py-4"
-            : "bg-transparent py-4"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+        ? "bg-card/95 backdrop-blur-md shadow-medium py-2"
+        : location.pathname === "/success"
+          ? "gradient-hero py-4"
+          : "bg-transparent py-4"
+        }`}
     >
       <div className="container-custom flex items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
@@ -47,18 +46,16 @@ const Header = () => {
           </div>
           <div className="">
             <p
-              className={`font-display font-semibold text-lg ${
-                isScrolled ? "text-primary" : "text-white"
-              }`}
+              className={`font-display font-semibold text-sm md:text-lg ${isScrolled ? "text-primary" : "text-white"
+                }`}
             >
               Madhura Wealth Management
             </p>
             <p
-              className={`text-xs ${
-                isScrolled ? "text-muted-foreground" : "text-gray-200"
-              }`}
+              className={`text-xs ${isScrolled ? "text-muted-foreground" : "text-gray-200"
+                }`}
             >
-              Amit Ulhe
+              Amit & Bhavna Ulhe
             </p>
           </div>
         </Link>
@@ -69,13 +66,12 @@ const Header = () => {
             <Link
               key={link.path}
               to={link.path}
-              className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
-                location.pathname === link.path
-                  ? "text-accent bg-accent/10"
-                  : isScrolled
-                    ? "text-foreground hover:text-accent hover:bg-accent/5"
-                    : "text-white hover:text-accent"
-              }`}
+              className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${location.pathname === link.path
+                ? "text-accent bg-accent/10"
+                : isScrolled
+                  ? "text-foreground hover:text-accent hover:bg-accent/5"
+                  : "text-white hover:text-accent"
+                }`}
             >
               {link.name}
             </Link>
@@ -107,11 +103,10 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-4 py-3 rounded-md font-medium transition-colors ${
-                  location.pathname === link.path
-                    ? "text-accent bg-accent/10"
-                    : "text-foreground hover:bg-muted"
-                }`}
+                className={`px-4 py-3 rounded-md font-medium transition-colors ${location.pathname === link.path
+                  ? "text-accent bg-accent/10"
+                  : "text-foreground hover:bg-muted"
+                  }`}
               >
                 {link.name}
               </Link>
